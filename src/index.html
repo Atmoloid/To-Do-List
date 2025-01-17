@@ -3,14 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do-List</title>
 </head>
 <body>
-    <h1 id="a">CAzzo</h1>
+    <div class="upper-container">
+    <h1 id="title">To-Do-List</h1>
+</div>
+<div class="left-container"></div>
     
     <script src="index.js"></script>
-    <style>body{
-        background-color: aqua;
-    }</style>
+    <style>
+    body{
+        background-color: rgb(201, 136, 17);
+        height: 630px;
+    }
+    .upper-container{ 
+        width: 1297px;
+        height: 200px;
+        background-color: rgb(134, 67, 22);
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        margin-left: -2%;
+        margin-top: -2%;
+        border-bottom: 5px solid black;
+        
+    }
+    .left-container{
+        width: 300px;
+        height: 465px;
+        background-color: rgb(134, 67, 22);
+        margin-left: -2%;
+        border-right: 5px solid black;
+    }
+    #title{ 
+        font-weight: bolder;
+        font-size: 100px;
+    }
+    </style>
 </body>
 </html>
